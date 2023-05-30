@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --gray-bg-500:#f0efec;
+    --gray-bg-800:#e6e5e0;
+    --purple-bg:#70163c;
+    --darkGreen-bg:#242e24;
+    --darkGreen-bg-800:#1a251a;
+    --blackBean-bg:#472c1b;
+    --federalBlue-bg:#140d4f;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--gray-bg-500);
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#one{
+    background-color: var(--gray-bg-500);
+}
+
+#one .content{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1{
+    font-size: 3.91vw;
+    text-align: center;
+}
+
+.content video{
+    width: 93%;
+}
+/* content 2 start */
+.content2{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.content3{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: row-reverse;
+}
+.left, .right{
+    width: 50%;
+    height: 100vh;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20vw;
+    gap: 4vh;
+}
+
+.left h2{
+    font-size: 2.65vw;
+    line-height: 48px;
+}
+
+.left p{
+    font-size: 1.1rem;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+.left button{
+    width: 8vw;
+    height: 2.8vw;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+
+.right{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right .img1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 25vw;
+    height: 70vh;
+    border-radius: 5%;
+   background-image: url(./public/benefits_01.jpg);
+   background-position: center;
+   background-size: cover;
+    z-index: 1;
+}
+.right .img2{
+    position: absolute;
+    bottom: 5%;
+    width: 25vw;
+    height: 70.5vh;
+    border-radius: 5%;
+    background-color: var(--darkGreen-bg-800);
+}
+
+.right .img3{
+    position: absolute;
+    bottom: 15%;
+    right: 12%;
+    width: 18.4vw;
+    height: 26vh;
+    border-radius: 5%;
+    background-image: url(./public/benefits_01_box_@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 3;
+}
+
+.content3 .left{
+    padding-left: 0vw;
+    padding-right: 20vw;
+}
+
+#one{
+    margin-bottom: 5rem;
+}
+
+#two, #three{
+    color: var(--gray-bg-800);
+}
+/* content 2  end*/
+/* #two{
+    background-color: var(--darkGreen-bg);
+}
+
+#three{
+    background-color: var(--blackBean-bg);
+}
+
+#four{
+    background-color: var(--federalBlue-bg);
+} */
