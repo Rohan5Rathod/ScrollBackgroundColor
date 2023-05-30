@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
+import vds from '../public/Homepage_animation_F0EFEC--no-audio.mp4'
 
 import "./App.css"
 
@@ -62,7 +63,7 @@ const App = () => {
         mades easy.
       </h1>
       <video
-        src="/public/Homepage_animation_F0EFEC--no-audio.mp4"  muted="muted"
+        src={vds}  muted="muted"
         autoPlay="autoplay"
       />
     </div>
