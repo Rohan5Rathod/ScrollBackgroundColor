@@ -62,7 +62,7 @@ const App = () => {
         mades easy.
       </h1>
       <video
-        src="../public/Homepage_animation_F0EFEC--no-audio.mp4"  muted="muted"
+        src="public/Homepage_animation_F0EFEC--no-audio.mp4"  muted="muted"
         autoPlay="autoplay"
       />
     </div>
